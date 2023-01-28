@@ -1,5 +1,5 @@
 ### Badges
-[![Java CI with Maven](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml/badge.svg)](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml)
+[![Build Status](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml/badge.svg)](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml)
 
 ### Camunda Message Starter
 
