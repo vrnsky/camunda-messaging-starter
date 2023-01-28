@@ -5,7 +5,7 @@ By using this project you can save you time
 
 ### Usage
 ```
-<dependency>1
+<dependency>
   <groupId>io.vrnsky</groupId>
   <artifactId>camunda-messaging-starter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
