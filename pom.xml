@@ -13,6 +13,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>camunda-messaging-starter</name>
     <description>Message Camunda without overhead</description>
+    <packaging>jar</packaging>
+
     <properties>
         <java.version>17</java.version>
         <kotlin.version>1.7.22</kotlin.version>
@@ -26,6 +28,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-kotlin</artifactId>

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.vrnsky.camunda.messaging.starter.CamundaMessagingConfiguration
+io.vrnsky.camunda.messaging.starter.CamundaMessageAutoConfiguration
