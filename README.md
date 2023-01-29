@@ -23,7 +23,9 @@ clean kotlin:compile install
 Since have to Kotlin sources need to be compiled before installing to local repository
 
 ### Usage
-#### Creation of template (it's known bug, bean of CamundaMessageTemplate have to be created automatically)
+#### Creation 
+Creation of template happens automatically, so you don't have to manually create bean,
+but you can override default provided template as below
 ```java
 import io.vrnsky.camunda.messaging.starter.CamundaMessageConfiguration;
 import io.vrnsky.camunda.messaging.starter.CamundaMessageTemplate;

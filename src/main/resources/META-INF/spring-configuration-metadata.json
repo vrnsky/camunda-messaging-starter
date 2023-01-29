@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "camunda.baseUrl",
+      "type": "java.lang.String",
+      "description": "The URL of Camunda engine",
+      "defaultValue": "any"
+    }
+  ]
+}
