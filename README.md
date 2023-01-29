@@ -64,6 +64,10 @@ public class CamundaController {
 }
 
 ```
+#### Successfully launch
+```bash
+CamundaMessageTemplate   : baseUrl obtained from configs = http://localhost:8080
+```
 
 ### CI/CD
 For CI/CD this project use GitHub Actions, all workflows placed [./github/workflows](.github/workflows)
