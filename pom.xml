@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.vrnsky</groupId>
     <artifactId>camunda-messaging-starter</artifactId>
-    <version>0.0.11-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>camunda-messaging-starter</name>
     <description>Message Camunda without overhead</description>
 
