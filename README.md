@@ -1,5 +1,5 @@
 ### Badges
-[![Build Status](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml/badge.svg)](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml)
+[![Build and release version](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml/badge.svg?branch=main)](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml)
 
 ### Camunda Message Starter
 
