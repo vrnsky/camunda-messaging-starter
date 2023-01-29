@@ -22,12 +22,13 @@ jobs:
         run: mvn kotlin:compile -B package --file pom.xml
   release:
     steps:
-      uses: qcastel/github-actions-maven-release@master
-      env:
-        JAVA_HOME: /usr/lib/jvm/java-17-openjdk/
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        version-patch: true
-        release-branch-name: "main"
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        maven-args: "-Dmaven.deploy.skip=true"
+      - name: Release new version
+        uses: qcastel/github-actions-maven-release@master
+        env:
+          JAVA_HOME: /usr/lib/jvm/java-17-openjdk/
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          version-patch: true
+          release-branch-name: "main"
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          maven-args: "-Dmaven.deploy.skip=true"
