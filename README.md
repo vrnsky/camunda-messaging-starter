@@ -42,12 +42,13 @@ public class MessageConfiguration {
     }
 }
 ```
-#### Use
+#### Usage
+
 ```java
 import io.vrnsky.camunda.messaging.starter.CamundaMessageTemplate;
 import io.vrnsky.camunda.messaging.starter.model.CamundaMessage;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -57,7 +58,7 @@ public class CamundaController {
     @Autowired
     private CamundaMessageTemplate camundaMessageTemplate;
 
-    @GetMapping("/message")
+    @PostMapping("/message")
     public void message(@RequestBody CamundaMessage camundaMessage) {
         camundaMessageTemplate.message(camundaMessage);
     }
@@ -78,3 +79,4 @@ Contacts:
 [LinkedIn](https://www.linkedin.com/in/vrnsky/)  
 [Twitter](https://twitter.com/VoronyanskyE)  
 [Telegram](https://t.me/vrnsky)  
+[Email](mailto:vrnsky@proton.me)

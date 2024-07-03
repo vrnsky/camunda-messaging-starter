@@ -9,11 +9,11 @@ import org.springframework.context.annotation.Bean
 @AutoConfiguration
 @ConditionalOnClass(CamundaMessageTemplate::class)
 @EnableConfigurationProperties(CamundaMessageConfiguration::class)
-class CamundaMessageAutoConfiguration {
+open class CamundaMessageAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    fun createTemplate(properties: CamundaMessageConfiguration): CamundaMessageTemplate {
+    open fun createTemplate(properties: CamundaMessageConfiguration): CamundaMessageTemplate {
         return CamundaMessageTemplate(properties)
     }
 }
