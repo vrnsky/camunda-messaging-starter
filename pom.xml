@@ -89,7 +89,7 @@
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
-                <version>1.7.22</version>
+                <version>${kotlin.version}</version>
                 <configuration>
                     <sourceDirs>
                         <sourceDir>${project.basedir}/src/main/kotlin</sourceDir>
