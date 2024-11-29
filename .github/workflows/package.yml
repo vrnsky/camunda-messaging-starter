@@ -1,4 +1,4 @@
-name: Build and release version
+name: Build
 on: push
 jobs:
   build:
