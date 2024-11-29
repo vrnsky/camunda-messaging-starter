@@ -1,5 +1,5 @@
 [![Build and release version](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml/badge.svg?branch=main)](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.23-%237F52FF.svg?logo=kotlin&logoColor=white)](#)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-%237F52FF.svg?logo=kotlin&logoColor=white)](#)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=fff)](#)
 [![JUnit5](https://img.shields.io/badge/Tested_with-JUnit_5-1?logo=junit5)](#)
 [![Linear](https://img.shields.io/badge/Task_tracker_we_prefer-Linear-5E6AD2?logo=linear&logoColor=fff)](#)

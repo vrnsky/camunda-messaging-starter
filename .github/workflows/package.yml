@@ -1,4 +1,4 @@
-name: Build and release version
+name: Build
 on: push
 jobs:
   build:
@@ -12,4 +12,5 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn kotlin:compile -B package --file pom.xml
+        run: mvn -B clean install
+        timeout-minutes: 15
