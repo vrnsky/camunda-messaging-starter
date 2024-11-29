@@ -1,15 +1,15 @@
-### Badges
 [![Build and release version](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml/badge.svg?branch=main)](https://github.com/vrnsky/camunda-messaging-starter/actions/workflows/package.yml)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.23-%237F52FF.svg?logo=kotlin&logoColor=white)](#)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=fff)](#)
 [![JUnit5](https://img.shields.io/badge/Tested_with-JUnit_5-1?logo=junit5)](#)
 [![Linear](https://img.shields.io/badge/Task_tracker_we_prefer-Linear-5E6AD2?logo=linear&logoColor=fff)](#)
-### Camunda Message Starter
 
-Send messaging to Camunda, it is trivial task, but it brings a lot of boilerplate code
-By using this project you can save you time
+### ✉ Camunda Message Starter
 
-### Usage
+Send a message to Camunda; it is a trivial task, but it brings a lot of boilerplate code.
+By using this project you can save time.
+
+### 〈〉Usage
 ```
 <dependency>
   <groupId>io.vrnsky</groupId>
@@ -18,17 +18,10 @@ By using this project you can save you time
 </dependency>
 ```
 
-### Local development
-For local building:
-```
-clean kotlin:compile install
-```
-Since have to Kotlin sources need to be compiled before installing to local repository
+#### 🎉 Creation 
+Template is created automatically. You don't need to create a bean.
+But you can override the default template as below.
 
-### Usage
-#### Creation 
-Creation of template happens automatically, so you don't have to manually create bean,
-but you can override default provided template as below
 ```java
 import io.vrnsky.camunda.messaging.starter.CamundaMessageConfiguration;
 import io.vrnsky.camunda.messaging.starter.CamundaMessageTemplate;
@@ -45,7 +38,6 @@ public class MessageConfiguration {
     }
 }
 ```
-#### Usage
 
 ```java
 import io.vrnsky.camunda.messaging.starter.CamundaMessageTemplate;
@@ -66,20 +58,21 @@ public class CamundaController {
         camundaMessageTemplate.message(camundaMessage);
     }
 }
-
 ```
+
 #### Successfully launch
+
 ```bash
 CamundaMessageTemplate   : baseUrl obtained from configs = http://localhost:8080
 ```
 
-### CI/CD
-For CI/CD this project use GitHub Actions, all workflows placed [./github/workflows](.github/workflows)
+### ⨑ CI/CD
 
-Contacts:
+This project uses GitHub Actions for CI and CD; the [designated directory](./.github/workflows) contains all workflows.
 
-### Contact
-[LinkedIn](https://www.linkedin.com/in/vrnsky/)  
-[Twitter](https://twitter.com/VoronyanskyE)  
-[Telegram](https://t.me/vrnsky)  
-[Email](mailto:vrnsky@proton.me)
+### ✆ Contacts
+
+[![Medium](https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white)](https://vrnsky.medium.com)
+[![Substack](https://img.shields.io/badge/Substack-FF6719?logo=substack&logoColor=fff)](https://vrnsky.substack.com)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)](https://vrnsky.github.io)
+[![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon&logoColor=fff)](https://me.dm/@vrnsky)
