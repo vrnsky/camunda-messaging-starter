@@ -4,9 +4,6 @@
 [![JUnit5](https://img.shields.io/badge/Tested_with-JUnit_5-1?logo=junit5)](#)
 [![Linear](https://img.shields.io/badge/Task_tracker_we_prefer-Linear-5E6AD2?logo=linear&logoColor=fff)](#)
 
-### Table of content
-[[TOC]]
-
 ### ✉ Camunda Message Starter
 
 Send a message to Camunda; it is a trivial task, but it brings a lot of boilerplate code.
