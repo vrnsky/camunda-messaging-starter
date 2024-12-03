@@ -1,6 +1,13 @@
 # Changelog
 
     ## Unreleased
+        * Merge pull request #8 from vrnsky/bugfix/vrnsky-32
+            * fix: vrnsky-32. Maven set up
+        * fix: vrnsky-32. Maven set up
+        * Merge pull request #7 from vrnsky/bugfix/vrnsky-32
+            * bugfix: vrnsky-32, add Maven setting set up to perform release
+        * bugfix: vrnsky-32, add Maven setting set up to perform release
+        * docs: update changelog for version 0.0.4
         * Merge pull request #6 from vrnsky/bugfix/vrnsky-32
             * bufix: vrnsky-32. Fix step with setting github user
         * bufix: vrnsky-32. Fix step with setting github user
