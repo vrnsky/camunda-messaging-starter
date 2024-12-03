@@ -42,6 +42,7 @@ jobs:
           git config user.name "GitHub Actions"
       - name: Prepare Release
         run: |
+          set -e
           mvn release:prepare \
           -DreleaseVersion=${{ github.event.inputs.releaseVersion }} \
           -DdevelopmentVersion=${{ github.event.inputs.developmentVersion }} \
@@ -50,6 +51,7 @@ jobs:
         run: mvn release:perform
       - name: Push changes
         run: |
+          set -e
           git push origin main
           git push origin --tags
       - name: Get changelog entry
@@ -60,7 +62,7 @@ jobs:
           echo "$CHANGELOG_ENTRY" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
          tag_name: v${{ github.event.inputs.releaseVersion }}
          name: Release v${{ github.event.inputs.releaseVersion }}
