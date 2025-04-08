@@ -60,6 +60,9 @@ public class CamundaController {
 }
 ```
 
+#### Process definition example
+![Process definition example](./img.png)
+
 #### Successfully launch
 
 ```bash
